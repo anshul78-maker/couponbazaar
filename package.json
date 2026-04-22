@@ -1,0 +1,24 @@
+{
+  "name": "couponbazaar",
+  "version": "1.0.0",
+  "description": "India's community coupon marketplace — browse deals & earn commission by selling coupons",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev":     "vite",
+    "build":   "vite build",
+    "preview": "vite preview",
+    "lint":    "eslint src --ext .jsx,.js"
+  },
+  "dependencies": {
+    "react":                  "^18.2.0",
+    "react-dom":              "^18.2.0",
+    "@supabase/supabase-js":  "^2.39.0",
+    "razorpay":               "^2.9.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react":   "^4.2.0",
+    "vite":                   "^5.0.0",
+    "eslint":                 "^8.55.0"
+  }
+}
